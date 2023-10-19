@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: yellow; */
+}
+nav{
+    width: 100%;
+    height: 100px;
+   background-color: blue; 
+   text-align: center;
+   align-items: center;
+   overflow: hidden;
+   float: left;
+}
+nav img{
+    position: absolute;
+    left: 40px;
+    top: 12px;
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 50%;
+    /* margin: 20px; */
+    /* margin-bottom: 40px; */
+    /* margin-top: 10px;
+    margin-left: 20px; */
+}
+.navbar{
+    background-color: yellowgreen;
+    margin: 8px;
+    height: 80px;
+    margin-left: 200px;
+    padding: 0px 150px;
+    line-height: 0px;
+    border-radius: 40px ;
+    overflow: hidden;
+    align-items: center;
+    float: left;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+/* ul{
+    background-color: red;
+    color: white;
+    margin: 20px;
+} */
+ul li{
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 25px 25px;
+   /* border-radius: 40px; */
+    margin: 20px;
+    margin-top: 15px;
+    /* background-color: aqua; */
+    align-items: center;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li a{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    /* background-color: brown; */
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+ a:hover{
+    background-color: greenyellow;
+    border-radius:20px;
+}
+a.active{
+    background-color: tomato;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: .5s;
+}
+div{
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.welcome{ 
+    background-color: yellow;
+    padding: 20px;
+}
+/* div p{
+    background-color: aquamarine;
+}
+div b{background-color: aquamarine;} */
+
+.gridabout{
+    display: grid;
+    grid-template-areas: 'who who who am am am '
+                            'i i i am am am'
+                            'me me me am am am'
+                            'myself myself myself am am am';
+    background-color: rgb(19, 199, 133);
+    padding: 10px;
+    gap: 2px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    /* height: 800px;
+    align-content: center; */
+    
+    
+}
+.gridabout div{
+    text-align: center;
+    /* gap: 10px; */
+    padding: 20px 0px;
+    border-radius: 10px;
+    
+    font-size: 30px;
+}
+.item5 img{
+    width: 270px;
+    height: 470px;
+    grid-area: am;
+    border-radius: 40px;
+    border: 2px solid gold;
+    /* grid-area: 1/7; */
+    /* grid-area: 1 / 2 / 5 / 6; */
+    
+}
+.item1 { grid-area: who; }
+.item2 { grid-area: i; }
+.item3 { grid-area: me; }
+.item4 { grid-area: myself; }
+.item5 { grid-area: am; }
+
+.container{
+    width: 350px;
+    background-color: aquamarine;
+    /* margin: 40px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* text-align: center;
+    position: relative;
+    left: 100px; */
+}
+
+
+.container1 { grid-area: wh; }
+.container2 { grid-area: o; }
+.container3 { grid-area: m; }
+.container4 { grid-area: my; }
+.container5 { grid-area: a; }
+.container6 { grid-area: an; }
+.cont{
+    display: grid;
+    grid-template-areas: 'wh o m '
+                            'my a an';
+    background-color: rgb(19, 199, 133);
+    padding: 10px;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    /* justify-content: space-evenly; */
+}
+
+.cont >div{
+    padding: 10px;
+    
+}
+.card{
+    background-color: yellowgreen;
+    height: 90px;
+    padding: 20px;
+    padding-bottom: 110px;
+        font-size: 40px;
+}
+
+.title{
+   
+    padding: 20px;
+    background-color: rgb(232, 159, 159);
+    /* border-radius: 10px; */
+    color: black;
+    font-size: bold;
+    text-align: center;
+    
+}
+table th, td{
+    /* display: flex; */
+    /* flex-direction: center; */
+/* border: 2px solid black; */
+/* border-collapse: collapse; */
+/* align-items: center; */
+/* text-align: center; */
+/* width: 200%; */
+}
+table{
+    /* display: flex; */
+    /* flex-direction: center; */
+    /* justify-content: center; */
+    margin: 20px;
+    width: 60%;
+    margin-left: 310px;
+    font-size: larger;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+}
+td{
+    /* display: flex; */
+    /* align-content: center; */
+    padding: 5px;
+}
+
+
+/* table {
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    /* width: 100%; */
+    /* border: 2px solid black;
+    margin-bottom: 20px;
+  } */ 
+  .form{
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 15px;
+    padding-top: 30px;
+  }
+  form{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    /* margin: 20px; */
+  }
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    /* align-content: center; */
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+    font-size: larger;
+   list-style-type: none;
+   background-color: yellowgreen;
+   margin: 10px;
+   padding: 5px;
+   /* border-radius: 110px; */
+}
+.images a{
+    background-color: aqua;
+    /* position: relative; */
+    /* width: 80px; */
+    /* text-align: center; */
+    /* margin-left: 100px; */
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+img{
+    width: 100%;
+    border-radius:30px 0px;
+}
+  
